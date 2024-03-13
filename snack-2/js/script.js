@@ -13,6 +13,8 @@ const userWordTwo = prompt('Inserisci una parola');
 // stampa prima la parola più corta
 if (userWordOne.length>userWordTwo.length) {
     console.log(userWordOne);
+    console.log(userWordTwo);
 } else {
-    console.log(userWordTwo)
+    console.log(userWordTwo);
+    console.log(userWordOne);
 }
