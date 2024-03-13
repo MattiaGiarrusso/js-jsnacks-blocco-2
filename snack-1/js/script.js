@@ -6,13 +6,13 @@
 
 let numberUser = parseInt(prompt('Dammi un numero'));
 
-// se è pari stampa il numero,
+// se è dispari stampa il numero successivo,
 if (numberUser%2 !== 0) {
     numberUser++
     console.log(numberUser);
     alert(numberUser);
     
-// se è dispari stampa il numero successivo
+// se è pari stampa il numero
 } else {
     console.log(numberUser);
     alert(numberUser);
